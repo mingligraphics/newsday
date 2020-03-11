@@ -2,7 +2,7 @@ Income and Child Opportunity Level:
 
 You can see the project published on: https://mingligraphics.github.io/newsday/
 
-* About The Data:
+** About The Data:
 
 I narrow both the income and Chidren Opportunity Score/Level data to Long Island census tracts. Both of them are measured at the national level so that they are comparable.
 
@@ -22,11 +22,11 @@ https://statisticalatlas.com/state/New-York/Household-Income (Use national stand
 4. New York State shapefile
 http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=927
 
-* How Did I Make The Graphics:
+** How Did I Make The Graphics:
 
 I used Pandas to build and merge my dataframes. I used seaborn to plot the chart. The two maps were created in Qgis and then I threw everything in Adobe illustrator to make them prettier. I used sawhorse to build the whole page.
 
-* Limitation About The Project:
+** Limitation About The Project:
 
 1. The household income is perhaps one of the underlying indicators of the Children Oppotunity Index itself, so the findings may not be very suprising. In a way, it emphasizes the high correlation between economic status and children's opportunity level.
 
