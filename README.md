@@ -1,17 +1,19 @@
-Income and Child Opportunity Level:
+   Income and Child Opportunity Level:
 
-You can see the project published on: https://mingligraphics.github.io/newsday/
+   You can see the project published on: https://mingligraphics.github.io/newsday/
 
 ** About The Data:
 
-I narrow both the income and Chidren Opportunity Score/Level data to Long Island census tracts. Both of them are measured at the national level so that they are comparable.
+   I narrow both the income and Chidren Opportunity Score/Level data to Long Island census tracts. Both of them are measured at the national level so that they are comparable.
 
 1. In order to map the data, we could use a shapefile of New York with geoid information.
+
 https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2015.html
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2015&layergroup=Census+Tracts
 
 2. Household income by census Tracts
+
 https://datausa.io/profile/geo/nassau-county-ny
 https://datausa.io/profile/geo/suffolk-county-ny
 https://datausa.io/profile/geo/new-york-ny
@@ -24,7 +26,7 @@ http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=927
 
 ** How Did I Make The Graphics:
 
-I used Pandas to build and merge my dataframes. I used seaborn to plot the chart. The two maps were created in Qgis and then I threw everything in Adobe illustrator to make them prettier. I used sawhorse to build the whole page.
+   I used Pandas to build and merge my dataframes. I used seaborn to plot the chart. The two maps were created in Qgis and then I threw everything in Adobe illustrator to make them prettier. I used sawhorse to build the whole page.
 
 ** Limitation About The Project:
 
